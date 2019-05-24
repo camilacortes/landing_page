@@ -1,0 +1,234 @@
+body{
+    font-family: 'Khula', sans-serif;
+
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 1017px) {
+    .machines_picture{
+        height: 300px;
+    }
+   
+
+
+}
+
+
+#header{
+    display: flex;
+    background-color: #e37222;
+    font-size: 40px;
+    height:  100px;
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.teleportation-image{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    
+}
+
+.p{
+    display:flex;
+    font-size: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+/*FIRST SECTION*/
+
+.firstsection{
+   /* background-color: #66b9bf;*/
+   background-color: #8FC6F9;
+    height: 700px;
+    padding: 20px;
+
+   
+}
+
+.firstsection_header{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.features{
+    font-size: 20px;
+}
+
+.machines-picture_holder{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.machines_picture{
+    border-radius: 60%
+}
+
+
+/* SECOND SECTION */
+
+.secondsection{
+    height: 700px;
+    padding: 20px;
+    background-color: #eeaa7b;
+}
+
+.fa-user{
+    color: white;
+    font-size:100px;
+}
+
+.user-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.testimonies-holder{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 40%;
+    margin: 20px;
+   
+}
+
+.testimonies-one{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border: solid 2px #548CEF; 
+    background-color: #F8F6F3;
+    width: 60%;
+    height: 40%;
+    padding: 60px;
+    font-size: 30px;
+    box-shadow: -9px 8px 23px 4px rgba(0,0,0,0.61);
+    -webkit-box-shadow: -9px 8px 23px 4px rgba(0,0,0,0.61);
+    -moz-box-shadow: -9px 8px 23px 4px rgba(0,0,0,0.61);
+}
+
+.testimonies-one:hover{
+    background-color: white;
+}
+
+.testimonies-two{
+    display: flex;
+    justify-content: center;
+    border: solid 2px #548CEF; 
+    background-color: #F8F6F3;
+    width: 60%;
+    height: 40%;
+    padding: 60px;
+    font-size: 30px;
+    box-shadow: -9px 8px 23px 4px rgba(0,0,0,0.61);
+    -webkit-box-shadow: -9px 8px 23px 4px rgba(0,0,0,0.61);
+    -moz-box-shadow: -9px 8px 23px 4px rgba(0,0,0,0.61);
+}
+
+.testimonies-two:hover{
+    background-color: white;
+}
+
+/*THIRD SECTION */
+
+.thirdsection{
+    height: 700px;
+    padding: 20px;
+    
+    
+}
+
+.price_style_holder{
+    display: flex;
+    justify-content: center;
+}
+
+.price_style{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.fa-dollar-sign{
+    font-size: 50px;
+    color: black;
+    
+}
+
+.price-content{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+ 
+.pricing-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: solid black;
+    width: 450px;
+    height: 400px;
+    margin: 25px;
+    padding: 15px;
+}
+
+.style-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: solid black;
+    width: 450px;
+    height: 400px;
+    margin: 25px;
+    padding: 15px;
+}
+
+.fa-palette{
+    font-size: 50px;
+    color: black;
+}
+
+.style-content{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+/* FOURTH SECTION */
+
+.fourthsection{
+    height: 700px;
+    padding: 20px;
+    background-color: #F8F6F3;
+}
+
+.FAQ{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    text-decoration: underline; 
+}
+
+
+.questions{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+
+
+/*FOOTER */
+.footer{
+    display: flex;
+    align-items: flex-end;
+    background-color: #07889b;
+}
+
