@@ -10,9 +10,97 @@ body{
         height: 300px;
     }
    
+    .testimonies-holder .testimonies-one{
+        font-size: 25px;
+    }
 
-
+     .price_style_holder .pricing-box, .style-box{
+        font-size: 30px;
+    }
 }
+        
+    @media only screen and (min-width: 866px) and (max-width: 1016px) {
+    .machines_picture{
+        height: 280px;
+    }
+   
+    .testimonies-holder .testimonies-one{
+        font-size: 25px;
+    }
+
+    .testimonies-holder .testimonies-two{
+        font-size: 25px;
+    }
+
+     .price_style_holder .pricing-box, .style-box{
+        font-size: 25px;
+    }
+    }
+
+    @media only screen and (min-width: 600px )and (max-width: 864px) {
+        .machines_picture{
+            height: 250px;
+        }
+       
+        .testimonies-holder .testimonies-one{
+            font-size: 20px;
+        }
+
+        .testimonies-holder .testimonies-two{
+            font-size: 20px;
+        }
+    
+    
+         .price_style_holder .pricing-box, .style-box{
+            font-size: 20px;
+        }
+    }
+
+    @media only screen and (min-width: 400px )and (max-width: 470px) {
+        .machines_picture{
+            height: 200px;
+        }
+       
+        .testimonies-holder .testimonies-one{
+            font-size: 18px;
+        }
+
+        .testimonies-holder .testimonies-two{
+            font-size: 18px;
+        }
+    
+    
+         .price_style_holder .pricing-box, .style-box{
+            font-size: 20px;
+        }
+    }
+
+    @media only screen and (min-width: 300px )and (max-width: 399px) {
+
+         .firstsection .features{
+            font-size: 18px;
+        }
+
+        .machines_picture{
+            height: 200px;
+        }
+       
+        .testimonies-holder .testimonies-one{
+            font-size: 15px;
+            padding: 40px;
+        }
+
+        .testimonies-holder .testimonies-two{
+            font-size: 15px;
+            padding: 40px;
+        }
+    
+    
+         .price_style_holder .pricing-box, .style-box{
+            font-size: 18px;
+        }
+    }
+
 
 
 #header{
