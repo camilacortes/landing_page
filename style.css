@@ -63,6 +63,7 @@ body{
        
         .testimonies-holder .testimonies-one{
             font-size: 18px;
+            height: 170px;
         }
 
         .testimonies-holder .testimonies-two{
@@ -75,7 +76,7 @@ body{
         }
     }
 
-    @media only screen and (min-width: 300px )and (max-width: 399px) {
+    @media only screen and (min-width: 380px )and (max-width: 399px) {
 
          .firstsection .features{
             font-size: 18px;
@@ -100,6 +101,59 @@ body{
             font-size: 18px;
         }
     }
+
+    @media only screen and (min-width: 200px )and (max-width: 379px) {
+
+        body #header{
+            font-size: 30px;
+        }
+
+        body .p{
+            font-size: 20px;
+        }
+
+        .firstsection .firstsection_header{
+            font-size: 20px;
+        }
+
+        .firstsection .features{
+           font-size: 18px;
+       }
+
+       .machines_picture{
+           height: 170px;
+       }
+      
+       .testimonies-holder .testimonies-one{
+           font-size: 18px;
+           padding: 30px;
+           height: 250px;
+           
+       }
+
+       .testimonies-holder .testimonies-two{
+           font-size: 18px;
+           padding: 30px;
+           height: 170px;
+       }
+   
+       .thirdsection .price_style{
+           font-size: 18px;
+       }
+   
+        .price_style_holder .pricing-box, .style-box{
+           font-size: 17px;
+           width: 100px;
+       }
+
+       .fourthsection .FAQ{
+           font-size: 18px;
+       }
+
+       .fourthsection .questions{
+           font-size: 18px;
+       }
+   }
 
 
 
