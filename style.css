@@ -37,7 +37,7 @@ body{
     }
     }
 
-    @media only screen and (min-width: 500px )and (max-width: 864px) {
+    @media only screen and (min-width: 471px )and (max-width: 864px) {
         .machines_picture{
             height: 250px;
         }
